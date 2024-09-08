@@ -45,6 +45,9 @@ public class PlayerUtils {
             if (type.gear_slot.equals(RefCurio.NECKLACE)) {
                 list.addAll(MyCurioUtils.getAllSlots(Arrays.asList(RefCurio.NECKLACE), player));
             }
+            if (type.gear_slot.equals(RefCurio.BODY)) {
+                list.addAll(MyCurioUtils.getAllSlots(Arrays.asList(RefCurio.BODY), player));
+            }
             return list;
         } else {
             return Arrays.asList(player.getItemBySlot(type.getVanillaSlotType()));
