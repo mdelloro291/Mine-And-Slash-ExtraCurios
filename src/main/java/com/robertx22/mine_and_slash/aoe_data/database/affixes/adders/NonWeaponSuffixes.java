@@ -20,7 +20,7 @@ public class NonWeaponSuffixes implements ExileRegistryInit {
                 .add(Elements.Nature, "Of the Yeti")
                 .add(Elements.Cold, "Of the Storm")
                 .stats(x -> Arrays.asList(new StatMod(10, 45, new ElementalResist(x), ModType.FLAT)))
-                .includesTags(SlotTags.jewelry_family, SlotTags.armor_family, SlotTags.offhand_family)
+                .includesTags(SlotTags.jewelry_family, SlotTags.armor_family, SlotTags.body, SlotTags.offhand_family)
                 .Weight(5000)
                 .Suffix()
                 .Build();
@@ -29,7 +29,7 @@ public class NonWeaponSuffixes implements ExileRegistryInit {
                 .guid(x -> x.guidName + "_res")
                 .add(Elements.Shadow, "Of the Snake")
                 .stats(x -> Arrays.asList(new StatMod(10, 32, new ElementalResist(x), ModType.FLAT)))
-                .includesTags(SlotTags.jewelry_family, SlotTags.armor_family, SlotTags.offhand_family)
+                .includesTags(SlotTags.jewelry_family, SlotTags.armor_family, SlotTags.body, SlotTags.offhand_family)
                 .Weight(3000)
                 .Suffix()
                 .Build();
