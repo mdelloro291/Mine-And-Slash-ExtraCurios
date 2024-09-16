@@ -4,7 +4,7 @@ public enum CurioSlots {
 
     NECKLACE(RefCurio.NECKLACE),
     RING(RefCurio.RING);
-
+    BODY(RefCurio.BODY);
     public String name;
 
     CurioSlots(String name) {
