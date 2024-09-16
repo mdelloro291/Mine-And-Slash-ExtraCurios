@@ -20,6 +20,7 @@ public class BaseGearTypes {
     public final static DataGenKey<BaseGearType> BOW = of("bow");
     public final static DataGenKey<BaseGearType> CROSSBOW = of("crossbow");
     public final static DataGenKey<BaseGearType> STAFF = of("staff");
+    public final static DataGenKey<BaseGearType> BODY = of("body");
 
     public final static DataGenKey<BaseGearType> CLOTH_BOOTS = of("cloth_boots");
     public final static DataGenKey<BaseGearType> CLOTH_PANTS = of("cloth_pants");
