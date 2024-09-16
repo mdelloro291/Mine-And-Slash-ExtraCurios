@@ -16,6 +16,7 @@ public class GearSlots implements ExileRegistryInit {
     public static String BOOTS = new String("boots");
     public static String PANTS = new String("pants");
     public static String CHEST = new String("chest");
+    public static String BODY = new String("body");
     public static String HELMET = new String("helmet");
 
     public static String SHIELD = new String("shield");
@@ -41,6 +42,7 @@ public class GearSlots implements ExileRegistryInit {
         new GearSlot(BOOTS, "Boots", SlotFamily.Armor, new GearSlot.WeaponData(0, 0, 0), 7, 1000).addToSerializables();
         new GearSlot(PANTS, "Pants", SlotFamily.Armor, new GearSlot.WeaponData(0, 0, 0), 8, 1000).addToSerializables();
         new GearSlot(CHEST, "Chest", SlotFamily.Armor, new GearSlot.WeaponData(0, 0, 0), 9, 1000).addToSerializables();
+        new GearSlot(BODY, "Body", SlotFamily.Armor, new GearSlot.WeaponData(0, 0, 0), 9, 1000).addToSerializables();
         new GearSlot(HELMET, "Helmet", SlotFamily.Armor, new GearSlot.WeaponData(0, 0, 0), 10, 1000).addToSerializables();
 
         new GearSlot(SHIELD, "Shield", SlotFamily.OffHand, new GearSlot.WeaponData(0, 0, 0), 11, 500).addToSerializables(); // todo model numbers
