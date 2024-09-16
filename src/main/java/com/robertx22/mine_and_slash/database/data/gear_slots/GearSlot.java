@@ -160,6 +160,10 @@ public class GearSlot implements JsonExileRegistry<GearSlot>, IAutoGson<GearSlot
                     bool = CuriosApi.getCuriosHelper()
                             .getCurioTags(item)
                             .contains(RefCurio.RING);
+                } else if (id.equals(GearSlots.BODY)) {
+                    bool = CuriosApi.getCuriosHelper()
+                            .getCurioTags(item)
+                            .contains(RefCurio.BODY);
                 }
             }
 
