@@ -50,6 +50,8 @@ public class SlotTags {
     public static SlotTag shield = SlotTag.of("shield");
     public static SlotTag ring = SlotTag.of("ring");
     public static SlotTag necklace = SlotTag.of("necklace");
+    public static SlotTag body = SlotTag.of("body");
+
 
     public static SlotTag jewel_str = SlotTag.of("jewel_str");
     public static SlotTag jewel_dex = SlotTag.of("jewel_dex");
